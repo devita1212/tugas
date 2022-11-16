@@ -1,0 +1,40 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    background-color: rgb(244, 165, 255);
+    text-align: center;
+    padding: 8px;
+}
+.sidebar{
+    width: 24.4%;
+    height: 100%;
+    float: left;
+}
+.sidebar img{
+    width: 100%;
+    height: 100%;
+}
+.content{
+    float: left;
+    padding: 20px;
+    width: 72%;
+}
+.content h5, h6{
+    font-family: 'Times New Roman', Times, serif
+}
+h1, h5, h6{
+    color: rgb(0, 0, 0);
+}
+b{
+    color: rgb(16, 0, 54);
+}
+.nav-pills .nav-link.active{
+    background-color: rgb(115, 113, 254) !important;
+}
+.nav-pills .nav-link:hover{
+    background-color: rgb(176, 255, 208) !important;
+    color: red;
+    transition: ease-in 0.2s;
+}
